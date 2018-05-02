@@ -29,7 +29,7 @@ vkwinBTN.on("click", function () {
       $(".vkwin-title").text("Результаты розыгрыша:");
       $(".vkwin-pretitle").hide();
       $(".winners-result-time").text(getCurrentTime())
-    }, 250)
+    }, 850)
   }
   else {
     alert("Ошибка сервера!")
